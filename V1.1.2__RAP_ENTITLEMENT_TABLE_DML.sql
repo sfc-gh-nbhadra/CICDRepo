@@ -6,8 +6,7 @@
 --  04/15/2024					  Initial table creation script
 --	==================================================================================================
 
-USE SCHEMA CB_DATABASE.CB_SCHEMA;
-INSERT INTO rap_entitlement_table 
+INSERT INTO CB_SCHEMA.rap_entitlement_table 
 VALUES
 ('DATAENGG1001','1001'),
 ('DATAANALYST1001','1001'),
