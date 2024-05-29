@@ -3,7 +3,10 @@ name: snowflake-devops-demo2
 # Controls when the action will run. 
 on:
   push:
-
+    branches:
+      - main
+    paths:
+      - '/CICDRepo/**'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
