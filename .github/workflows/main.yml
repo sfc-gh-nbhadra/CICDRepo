@@ -1,8 +1,7 @@
 name: snowflake-devops-demo
 
 # Controls when the action will run. 
-on:
-  push:
+on: push:
     branches:
       - main
     paths:
